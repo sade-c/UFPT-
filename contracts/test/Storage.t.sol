@@ -31,6 +31,7 @@ contract StorageTest is Test {
         t.mint(Ali, 1 ether);
 
         // Compute the slot at which Ali's balance is stored in the Token contract
+        // keccak( leftPadTo32Bytes(addr) ++ leftPadTo32Bytes(1) )
         bytes32 aliBalanceSlot = keccak256(
             abi.encodePacked(uint256(uint160(Ali)), uint256(1))
         );
