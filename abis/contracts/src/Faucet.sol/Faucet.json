@@ -1,0 +1,7 @@
+[
+  "constructor() payable",
+  "function destroyFaucet()",
+  "function owner() view returns (address)",
+  "function withdraw(uint256) payable",
+  "function withdrawAll()"
+]

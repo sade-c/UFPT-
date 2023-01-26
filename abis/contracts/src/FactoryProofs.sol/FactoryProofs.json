@@ -1,0 +1,4 @@
+[
+  "function verifyDeployedBy(address,address,uint32) pure returns (bool)",
+  "function verifySaltedDeployedBy(address,address,bytes32,bytes32) pure returns (bool)"
+]

@@ -1,0 +1,13 @@
+[
+  "constructor(address,address)",
+  "function WETH() view returns (address)",
+  "function deposit(address,uint256) payable",
+  "function isMember(address) view returns (bool)",
+  "function multicall(bytes[]) payable",
+  "function stake(address,uint256) payable returns (uint256)",
+  "function toggleMember(address,bool) payable",
+  "function unstake(address,uint256) payable returns (uint256)",
+  "function unwrap(uint256) payable",
+  "function withdraw(address,uint256,address) payable",
+  "function wrap(uint256) payable"
+]
